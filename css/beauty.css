@@ -100,9 +100,9 @@ svg:hover {
     position: relative;
     z-index: 3;
     width: 95%;
-    height: 70vh;
+    height: 100vh;
     margin: 2% auto;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     /* border: solid magenta 1px; */
 }
