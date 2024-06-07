@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
     background-repeat: no-repeat;
     background: linear-gradient(0deg, rgba(119, 5, 132, 1) 0%, rgba(128, 35, 106, 1) 34%, rgba(35, 31, 59, 1) 74%, rgba(2, 0, 36, 1) 100%);
 }
@@ -32,8 +32,8 @@ a {
 
 .nav {
     background-color: #2E294E;
-    width: 35rem;
-    height: 10rem;
+    width: 85%;
+    height: 4rem;
     margin: 0 auto;
     border-radius: 0px 0px 40px 40px;
     box-shadow: 0 0 45px rgb(23, 23, 35);
@@ -46,8 +46,9 @@ a {
 }
 
 svg {
-    height: 8rem;
-    margin: 1rem 2%;
+    margin: 2%;
+    width: 50px;
+    height: 50px;
     fill: rgba(2, 0, 36);
     transition: ease-in-out 0.5s;
 }
@@ -89,8 +90,8 @@ svg:hover {
 .stars {
     position: absolute;
     top: 0;
-    width: 100vw;
-    height: 25vw;
+    width: 100%;
+    height: 20%;
     background-image: url(../stagepics/starsblock.png);
     z-index: 1;
     background-repeat: repeat-x;
@@ -98,11 +99,12 @@ svg:hover {
 
 .juice {
     position: relative;
-    z-index: 2;
-    width: 100%;
-    height: 60%;
-    margin: 2rem 0;
+    z-index: 3;
+    width: 95%;
+    height: 70vh;
+    margin: 2% auto;
     overflow-y: scroll;
+    overflow-x: hidden;
     /* border: solid magenta 1px; */
 }
 
@@ -113,27 +115,11 @@ svg:hover {
     display: flex;
 }
 
-#titlecard {
-    position: relative;
-    height: 100%;
-    width: 30%;
-    top: 0;
-    /* border: solid white 1px; */
-}
-
-#stella01 {
-    position: relative;
-    right: 0;
-    /* border: solid cyan 1px; */
-    height: 100%;
-    width: 70%;
-}
 
 #deets {
     position: relative;
     height: auto;
-    width: 95%;
-    margin: 0 auto;
+    width: 100%;
     /* border: solid yellow 1px; */
 }
 
@@ -147,7 +133,7 @@ svg:hover {
 }
 
 #galtit {
-    margin: 0 auto;
+    margin: 15px auto;
     width: 50%;
     position: relative;
     text-align: center;
@@ -156,27 +142,57 @@ svg:hover {
 
 #skills {
     /* border: solid magenta 1px; */
-    width: 80%;
+    width: 100%;
     height: 50%;
-    margin: 0 auto;
+    margin: 0;
     display: flex;
+}
 
+#skills02 {
+    /* border: solid magenta 1px; */
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#skills03 {
+    /* border: solid magenta 1px; */
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: auto;
+    display: flex;
 }
 
 #skillscol {
-    width: 25%;
     height: 100%;
     position: relative;
     /* border: solid blue 1px; */
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 #skillscol02 {
-    width: 25%;
+    width: 30%;
     height: 100%;
     position: relative;
     /* border: solid blue 1px; */
-    margin: 0 auto;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#skillscol04 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    /* border: solid blue 1px; */
+    margin: auto 10px;
+    padding: 0;
+    text-wrap: wrap;
     text-align: center;
 }
 
@@ -193,7 +209,7 @@ svg:hover {
 #title {
     color: #EADEDA;
     font-family: Jacquard;
-    font-size: 90px;
+    font-size: 30px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -204,12 +220,12 @@ svg:hover {
 #title02 {
     color: #EADEDA;
     font-family: Jacquard;
-    font-size: 90px;
+    font-size: 60px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    margin: auto auto auto 3rem;
+    margin: 0;
 }
 
 @keyframes floating {
@@ -230,21 +246,59 @@ svg:hover {
     font-family: JetBrainsI;
     color: #FFD400;
     position: relative;
+    font-size: 20px;
+}
+
+#subtext02 {
+    font-family: JetBrainsI;
+    color: #FFD400;
+    position: relative;
+    font-size: 12px;
+}
+
+#subtext03 {
+    font-family: JetBrainsI;
+    color: #FFD400;
+    position: relative;
+    font-size: 10px;
 }
 
 #text {
     font-family: JetBrains;
     color: #EADEDA;
     position: relative;
-    font-size: 24px;
+    font-size: 16px;
+}
+
+#text03 {
+    font-family: JetBrains;
+    color: #EADEDA;
+    position: relative;
+    font-size: 10px;
+}
+
+#textli {
+    font-family: JetBrains;
+    color: #EADEDA;
+    position: relative;
+    font-size: 12px;
+    margin: 5px;
 }
 
 #text02 {
     font-family: JetBrains;
     color: #D90368;
     position: relative;
-    font-size: 24px;
+    font-size: 16px;
 }
+
+#text04 {
+    font-family: JetBrains;
+    color: #D90368;
+    position: relative;
+    font-size: 14px;
+}
+
 
 /* STAGE CSS . . • ☆ . ° .• °:. *₊ ° . ☆ */
 
@@ -264,78 +318,87 @@ svg:hover {
     background-image: url(../stagepics/bg04.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 35%;
-    margin: 0 0 0 0;
+    position: fixed;
+    height: 6rem;
+    margin: 0;
+    bottom: 160px;
 }
 
 #background02 {
-    margin: -5rem 0 0 0;
+    margin: 0;
     background-image: url(../stagepics/bg01.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 25%;
+    position: fixed;
+    height: 6rem;
+    bottom: 140px;
 }
 
 #background03 {
-    margin: -5rem 0 0 0;
+    margin: 0;
     background-image: url(../stagepics/bg02.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 18%;
+    position: fixed;
+    height: 5rem;
+    bottom: 130px;
 }
 
 
 #background04 {
-    margin: -4rem 0 0 0;
+    margin: 0;
     background-image: url(../stagepics/mountains05porti.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 12%;
+    position: fixed;
+    height: 3rem;
+    bottom: 120px;
 }
 
 #background05 {
-    margin: -5rem 0 0 0;
+    margin: -30px 0 0 0;
     background-image: url(../stagepics/mountains03porti.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 12%;
+    position: fixed;
+    height: 5rem;
+    bottom: 120px;
 }
 
 #track {
     background: linear-gradient(0deg, rgba(10, 21, 56, 1) 0%, rgba(79, 51, 184, 1) 18%, rgba(149, 86, 233, 1) 42%, rgba(82, 116, 226, 1) 70%, rgba(10, 21, 56, 1) 100%, rgba(66, 96, 193, 1) 100%);
     width: 100%;
-    height: 40%;
-    position: relative;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
 }
 
 #background07 {
-    margin: -14rem 0 0 0;
+    margin: 0;
     background-image: url(../stagepics/mountains04porti.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 50%;
+    position: fixed;
+    height: 6rem;
+    bottom: 10px;
 }
 
 #background08 {
-    margin: -5rem 0 0 0;
+    margin: 0;
     background-image: url(../stagepics/mountainsporti.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 20%;
+    position: fixed;
+    height: 3rem;
+    bottom: 5px;
 }
 
 #background09 {
-    margin: -10rem 0 0 0;
+    margin: 0;
     background-image: url(../stagepics/mountains06porti.png);
     background-size: contain;
     width: 100%;
-    position: relative;
-    height: 40%;
+    position: fixed;
+    height: 2rem;
+    bottom: 0;
 }
