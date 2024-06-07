@@ -303,6 +303,7 @@ svg:hover {
 /* STAGE CSS . . • ☆ . ° .• °:. *₊ ° . ☆ */
 
 .stage {
+    pointer-events: none;
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -311,6 +312,7 @@ svg:hover {
 }
 
 #background01 {
+    pointer-events: none;
     animation-name: floating;
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -325,6 +327,7 @@ svg:hover {
 }
 
 #background02 {
+    pointer-events: none;
     margin: 0;
     background-image: url(../stagepics/bg01.png);
     background-size: contain;
@@ -335,6 +338,7 @@ svg:hover {
 }
 
 #background03 {
+    pointer-events: none;
     margin: 0;
     background-image: url(../stagepics/bg02.png);
     background-size: contain;
@@ -346,6 +350,7 @@ svg:hover {
 
 
 #background04 {
+    pointer-events: none;
     margin: 0;
     background-image: url(../stagepics/mountains05porti.png);
     background-size: contain;
@@ -356,6 +361,7 @@ svg:hover {
 }
 
 #background05 {
+    pointer-events: none;
     margin: -30px 0 0 0;
     background-image: url(../stagepics/mountains03porti.png);
     background-size: contain;
@@ -366,6 +372,7 @@ svg:hover {
 }
 
 #track {
+    pointer-events: none;
     background: linear-gradient(0deg, rgba(10, 21, 56, 1) 0%, rgba(79, 51, 184, 1) 18%, rgba(149, 86, 233, 1) 42%, rgba(82, 116, 226, 1) 70%, rgba(10, 21, 56, 1) 100%, rgba(66, 96, 193, 1) 100%);
     width: 100%;
     height: 8rem;
@@ -374,6 +381,7 @@ svg:hover {
 }
 
 #background07 {
+    pointer-events: none;
     margin: 0;
     background-image: url(../stagepics/mountains04porti.png);
     background-size: contain;
@@ -384,6 +392,7 @@ svg:hover {
 }
 
 #background08 {
+    pointer-events: none;
     margin: 0;
     background-image: url(../stagepics/mountainsporti.png);
     background-size: contain;
@@ -394,6 +403,7 @@ svg:hover {
 }
 
 #background09 {
+    pointer-events: none;
     margin: 0;
     background-image: url(../stagepics/mountains06porti.png);
     background-size: contain;
