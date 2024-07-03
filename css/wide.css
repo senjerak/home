@@ -1,0 +1,59 @@
+@media screen and (min-width: 1000px) {
+    svg {
+        margin: 3%;
+    }
+
+    #text04 {
+        font-size: 26px;
+    }
+
+    #text02 {
+        font-size: 26px;
+    }
+
+    #text03 {
+        font-size: 16px;
+    }
+
+    #textli {
+        font-size: 16px;
+    }
+
+    #subtext02 {
+        font-size: 20px;
+    }
+
+    #subtext03 {
+        font-size: 20px;
+    }
+
+    #title {
+        font-size: 45px;
+    }
+
+    .nav {
+        width: 40%;
+        height: 5rem;
+    }
+
+    #dergan {
+        height: 40rem;
+    }
+
+    #boost {
+        height: 50rem;
+    }
+
+    #skills {
+        flex-wrap: unset;
+    }
+
+    #skillscol {
+        flex-basis: unset;
+    }
+
+    #skillscol:nth-child(odd) {
+        direction: ltr;
+    }
+
+}
