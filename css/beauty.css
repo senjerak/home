@@ -10,6 +10,55 @@ a {
     text-decoration: none;
 }
 
+/* Temporary . . • ☆ . ° .• °:. *₊ ° . ☆ */
+
+#showpopup {
+    background-color: magenta;
+    width: 90%;
+    height: 12.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    border: solid cyan 3px;
+    margin: auto;
+}
+
+.textpop {
+    font-family: JetBrains;
+    color: #ffdd00;
+    position: relative;
+    font-size: 16px;
+    margin: 0;
+    padding: 1rem 0.5rem;
+    line-height: 1.5;
+}
+
+.popbut {
+    margin: 0.5rem;
+    width: 150px;
+    display: inline-flex;
+    border: dashed 3px white;
+    transition: ease 0.5s;
+}
+
+.popbut:hover {
+    width: 155px;
+    box-shadow: 10px 5px 5px white;
+}
+
+#poppop {
+    margin: 0;
+}
+
+.gal {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.gal img {
+    width: 100%;
+}
+
 /* FONTS . . • ☆ . ° .• °:. *₊ ° . ☆ */
 
 @font-face {
@@ -260,7 +309,7 @@ svg:hover {
     font-size: 10px;
 }
 
-#text {
+.text {
     font-family: JetBrains;
     color: #EADEDA;
     position: relative;
@@ -277,7 +326,7 @@ svg:hover {
     font-size: 10px;
 }
 
-#textli {
+.textli {
     font-family: JetBrains;
     color: #EADEDA;
     position: relative;
