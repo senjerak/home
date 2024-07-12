@@ -34,7 +34,7 @@ a {
 
 .popbut {
     margin: 0.5rem;
-    width: 50px;
+    width: 100px;
     display: inline-flex;
     border: dashed 3px white;
     transition: ease 0.5s;
