@@ -10,7 +10,120 @@ a {
     text-decoration: none;
 }
 
-/* Temporary . . • ☆ . ° .• °:. *₊ ° . ☆ */
+/* Gallery . . • ☆ . ° .• °:. *₊ ° . ☆ */
+
+#harry {
+    background: url(../cats/image-2.jpg);
+    background-size: cover;
+    transition: ease-in-out;
+}
+
+#vegeta {
+    background: url(../cats/image-3.jpg);
+    background-size: cover;
+    transition: ease-out;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#vegeta:hover {
+    animation-name: spin;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#harry:hover {
+    animation-name: spin;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#titlecat {
+    color: #EADEDA;
+    font-family: Jacquard;
+    font-size: 60px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: inline-flex;
+    margin-right: 10rem;
+}
+
+.catwrap {
+    width: 100%;
+    height: auto;
+}
+
+.cat {
+    background: blue;
+    width: 20rem;
+    height: 20rem;
+    display: inline-flex;
+    border-radius: 165px;
+    margin: 1%;
+}
+
+.galrow {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+}
+
+.galcell {
+    border: dashed white 4px;
+    width: 300px;
+    height: 100px;
+    display: inline-flex;
+    margin: 1%;
+}
+
+.galcell h1 {
+    margin: auto;
+}
+
+.galcell:hover {
+    border: dashed cyan 4px;
+}
+
+.gallerylink {
+    margin: auto;
+    display: inline-flex;
+}
+
+#gallink1 {
+    height: 200px;
+    width: 100px;
+    background: url(../media/Main-Still-dark-left.gif);
+    background-repeat: no-repeat;
+}
+
+#gallink2 {
+    height: 200px;
+    width: 200px;
+    background: url(../media/gallink.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    position: absolute;
+}
+
+.gallinkwrap {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
 
 #showpopup {
     background-color: magenta;
@@ -34,7 +147,7 @@ a {
 
 .popbut {
     margin: 0.5rem;
-    width: 100px;
+    width: 150px;
     display: inline-flex;
     border: dashed 3px white;
     transition: ease 0.5s;
@@ -162,7 +275,7 @@ svg:hover {
     z-index: 3;
     width: 95%;
     height: 100vh;
-    margin: 2% auto;
+    margin: auto;
     overflow-y: auto;
     overflow-x: hidden;
     /* border: solid magenta 1px; */
@@ -271,6 +384,10 @@ svg:hover {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin: 0;
+}
+
+#title02:hover {
+    color: cyan;
 }
 
 @keyframes floating {
