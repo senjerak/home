@@ -11,6 +11,16 @@ a {
 }
 
 /* Gallery . . • ☆ . ° .• °:. *₊ ° . ☆ */
+.markie p {
+    width: 100%;
+    font-family: Plank;
+    font-size: 42px;
+    background: linear-gradient(16deg, rgba(58, 83, 180, 1) 0%, rgba(29, 176, 253, 1) 27%, rgba(69, 252, 207, 1) 100%);
+    background-clip: text;
+    color: rgb(0 0 0 / 5%);
+    padding: 0;
+    letter-spacing: 5px;
+}
 
 #harry {
     background: url(../cats/image-2.jpg);
@@ -187,6 +197,11 @@ a {
 @font-face {
     font-family: JetBrainsI;
     src: url(../media/JetBrainsMono-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Plank;
+    src: url(../media/PLANK___.TTF);
 }
 
 /* NAVIGATION . . • ☆ . ° .• °:. *₊ ° . ☆ */
