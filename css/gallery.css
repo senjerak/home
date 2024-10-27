@@ -1,10 +1,12 @@
-@media screen and (max-width: 1700 px) 
+@media screen and (max-width: 1700 px) {
   .buttons {
       font-size: 16px;
   }  
+  
 .page_title{
   font-size: 16px;
 }
+  
 }
 
 
