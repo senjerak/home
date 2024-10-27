@@ -14,11 +14,16 @@
   width: 5px !important;
 }
 
+.blog_main {
+    display: flex !important;
+  }
+  
+
 .blog_main img {
   height: 20rem !important;
   bottom: 0 !important;
-  float: inline-end !important;
-  opacity: 50 !important;
+  float: right !important;
+  opacity: 0.5 !important;
 }
 
 .page_main {
