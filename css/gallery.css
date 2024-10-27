@@ -17,7 +17,7 @@
 .blog_main img {
   height: 20rem !important;
   bottom: 0 !important;
-  float: right;
+  float: right !important;
 }
 
 .page_main {
@@ -25,11 +25,11 @@
 }
 
 .page_main img{
-  object-fit: contain;
+  object-fit: contain !important;
 }
 
 .blog_info{
-  width: 90% !important;
+  width: 80% !important;
   margin-left: 0px !important;
 }
 
