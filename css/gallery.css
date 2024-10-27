@@ -1,3 +1,10 @@
+@media screen and (min-width:500 px) {
+  .buttons {
+      font-size: 16px;
+  }  
+}
+
+
 @font-face {
     font-family: JetBrainsI;
     src: url(../media/JetBrainsMono-Italic-VariableFont_wght.ttf);
