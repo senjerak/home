@@ -1,14 +1,14 @@
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1000px) {
   .buttons {
     font-size: 26px;
     color: red;
   }  
   
-.page_title{
+.page_title {
   font-size: 26px;
 }
 
-.but_round{
+.but_round {
   height: 5px;
   width: 5px;
 }
