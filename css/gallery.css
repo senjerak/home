@@ -2,7 +2,7 @@
   .buttons {
     font-size: 12px !important;
     padding-top: 25px !important;
-    width: 100% !important;
+    width: 105% !important;
   }  
   
 .page_title {
@@ -17,14 +17,19 @@
 .blog_main img {
   height: 20rem !important;
   bottom: 0 !important;
+  float: right;
 }
 
 .page_main {
   grid-template-columns: 1fr !important;
 }
 
+.page_main img{
+  object-fit: contain;
+}
+
 .blog_info{
-  width: 100% !important;
+  width: 90% !important;
   margin-left: 0px !important;
 }
 
