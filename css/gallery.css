@@ -138,7 +138,7 @@ body {
 }
 
 .buttons {
-    font-size: 34px;
+    font-size: 24px;
     font-family: Plank;
     text-align: center;
     color: white;
@@ -181,7 +181,7 @@ body {
 .page_title {
     font-family: Plank;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     margin-top: 10px;
     text-shadow: 5px 5px 5px #0f1439;
