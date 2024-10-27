@@ -1,8 +1,8 @@
 @media (max-width: 1000px) {
   .buttons {
     font-size: 12px !important;
-    padding-top: 15px !important;
-    width: 90% !important;
+    padding-top: 25px !important;
+    width: 100% !important;
   }  
   
 .page_title {
@@ -17,12 +17,17 @@
 .blog_main img {
   height: 20rem !important;
   bottom: 0 !important;
-  position: relative !important;
 }
 
-.page_main{
+.page_main {
   grid-template-columns: 1fr !important;
 }
+
+.blog_info{
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+
   
 }
 
@@ -263,13 +268,6 @@ body {
     width: auto;
     max-height: 10px;
     display: flex;
-}
-
-.blog_main img {
-    width: auto;
-    max-height: 40.5rem;
-    right: 0;
-    position: absolute;
 }
 
 .blog_info {
