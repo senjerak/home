@@ -1,7 +1,7 @@
 @media (max-width: 1000px) {
   .buttons {
     font-size: 12px !important;
-    margin-top: 5px !important;
+    padding-top: 15px !important;
   }  
   
 .page_title {
@@ -16,6 +16,11 @@
 .blog_main img {
   height: 10rem !important;
   bottom: 0 !important;
+  position: absolute !important;
+}
+
+.page_main{
+  grid-template-columns: 1fr !important;
 }
   
 }
