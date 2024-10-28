@@ -297,6 +297,13 @@ body {
     display: flex;
 }
 
+.blog_main img {
+    width: auto;
+    max-height: 40.5rem;
+    right: 0;
+    position: absolute;
+}
+
 .blog_info {
     position: absolute;
     margin-left: 5rem;
