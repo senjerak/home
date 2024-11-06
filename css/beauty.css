@@ -11,10 +11,17 @@ a {
 }
 
 /* Gallery . . • ☆ . ° .• °:. *₊ ° . ☆ */
+@media (max-width: 1000px){
+    .markie p{
+        font-size: 12px;
+    }
+    
+}
+
 .markie p {
     width: 100%;
     font-family: Plank;
-    font-size: 12px;
+    font-size: 32px;
     background: linear-gradient(16deg, rgba(58, 83, 180, 1) 0%, rgba(29, 176, 253, 1) 27%, rgba(69, 252, 207, 1) 100%);
     background-clip: text;
     color: rgb(0 0 0 / 5%);
