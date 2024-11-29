@@ -13,7 +13,7 @@ a {
 /* Gallery . . • ☆ . ° .• °:. *₊ ° . ☆ */
 @media (max-width: 1000px){
     .markie p{
-        font-size: 12px;
+        font-size: 12px !important;
     }
     
 }
