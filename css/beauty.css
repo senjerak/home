@@ -14,7 +14,7 @@ a {
     color: white;
     font-size: 40px;
     font-style: italic;
-    background: lightcoral;
+    background: lightcoral !important;
 }
 
 /* Gallery . . • ☆ . ° .• °:. *₊ ° . ☆ */
