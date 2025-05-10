@@ -10,6 +10,12 @@ a {
     text-decoration: none;
 }
 
+.tempmark{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
 /* Gallery . . • ☆ . ° .• °:. *₊ ° . ☆ */
 @media (max-width: 1000px){
     .markie p{
