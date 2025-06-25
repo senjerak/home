@@ -1,0 +1,236 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(/media/wp.jpg);
+    background-repeat: repeat;
+    overflow-x: hidden;
+    width: calc(100vw - (100% - 100vw));
+}
+
+@font-face {
+    font-family: 'minecraft';
+    src: url('/media/MinecraftStandard.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'minecraft_bold';
+    src: url('/media/MinecraftStandardBold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'kiwisoda';
+    src: url('/media/KiwiSoda.ttf') format('truetype');
+}
+
+.mine {
+    font-family: minecraft;
+    color: white;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.minex li {
+    font-family: minecraft;
+    font-size: 0.6rem;
+}
+
+.minexs {
+    font-family: minecraft;
+    color: white;
+    font-size: 0.5rem;
+    margin-top: 25px;
+}
+
+.content {
+    z-index: 10;
+    width: 100%;
+    height: 20em;
+    border: solid 2px white;
+    background: rgba(89, 5, 163, 1);
+    position: relative;
+    margin: 0;
+    margin-top: 5em;
+    padding: 0px 0px 0px 25px;
+    display: flex;
+
+}
+
+.heaber {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    z-index: 10;
+    position: static;
+}
+
+#headmarq {
+    z-index: 5;
+    margin: 0;
+    padding: 0 0 5px 0;
+    background: black;
+    position: relative;
+    font-family: minecraft;
+    color: white !important;
+    font-size: 0.4rem;
+    display: block;
+}
+
+.wrapperx {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 150%;
+    width: 100%;
+    background: url(/media/daworl.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+ul,
+li,
+a {
+    text-decoration: none !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5em;
+    transition: ease-in-out 0.1s;
+    color: white;
+}
+
+.minex li:hover {
+    font-size: 0.9rem;
+    color: cyan;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: url(/media/wp2.png);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.docker {
+    font-family: kiwisoda;
+    color: white !important;
+    font-size: 100px;
+    margin: 0;
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.dockerx {
+    font-family: kiwisoda;
+    color: white !important;
+    font-size: 50px;
+    margin: 0;
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.logo {
+    z-index: 5;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background: url(/media/ufo.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 8em;
+    text-align: center;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+.content_wrap {
+    width: 100%;
+    padding: 0 6rem;
+    /* justify-content: center; */
+    /* display: grid; */
+    /* border: solid */
+}
+
+.container {
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0) 0%, rgba(9, 9, 121, 0.5) 35%, rgb(30, 2, 54) 100%);
+    border-radius: 0% 0% 50% 50%;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    position: relative;
+    width: 100 vw;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerx {
+    margin-top: 2em;
+    padding: 0;
+    z-index: 5;
+    position: relative;
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navigation {
+    position: absolute;
+    z-index: 5;
+    height: 100%;
+    width: 100vw;
+    text-align: center;
+}
+
+.foober {
+    width: 100vw;
+    height: 200px;
+    background: black;
+    bottom: 0;
+    position: relative;
+    z-index: 5;
+    padding: 0;
+    margin: 0;
+    margin-top: 5em;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*______________ KEYFRAMES ______________*/
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
