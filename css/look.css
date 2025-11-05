@@ -81,8 +81,8 @@ html {
     display: flex;
     margin: 0;
     padding: 0;
-    height: 50%;
-    width: 50%;
+    height: 150%;
+    width: 100%;
     background: url(../media/planet.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,6 +102,10 @@ a {
     padding-top: 0.5em;
     transition: ease-in-out 0.1s;
     color: white;
+}
+
+.content img {
+    width: 30%;
 }
 
 .minex li:hover {
