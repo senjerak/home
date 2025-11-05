@@ -105,7 +105,9 @@ a {
 }
 
 .content img {
-    width: 30%;
+    display: flex;
+    width: 200px;
+    height: 100px;
 }
 
 .minex li:hover {
