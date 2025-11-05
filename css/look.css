@@ -81,7 +81,7 @@ html {
     display: flex;
     margin: 0;
     padding: 0;
-    height: 150%;
+    height: 100%;
     width: 100%;
     background: url(../media/planet.gif);
     background-repeat: no-repeat;
