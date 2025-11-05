@@ -83,7 +83,7 @@ html {
     padding: 0;
     height: 150%;
     width: 100%;
-    background: url("https://i.postimg.cc/q0BRW1GJ/daworl3-ezgif-com-optimize.gif");
+    background: url(../media/planet.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,7 +147,7 @@ a {
     position: absolute;
     height: 300px;
     width: 400px;
-    background: url("https://i.postimg.cc/fbtTF26c/ufo2-ezgif-com-optimize.gif");
+    background: url(../media/ufo.gif);
     background-size: contain;
     background-repeat: no-repeat;
     top: 8em;
