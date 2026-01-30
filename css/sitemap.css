@@ -1,9 +1,12 @@
 /* file tree lists */
 
 body {
-  background: url("https://sadhost.neocities.org/images/tiles/stars3.gif");
+  background-image: url("https://sadhost.neocities.org/images/tiles/stars3.gif");
+  background-repeat: repeat;
   filter: invert(1);
-  margin: 10%;
+  padding: 10%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .file-tree ul {
