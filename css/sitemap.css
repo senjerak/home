@@ -1,8 +1,9 @@
 /* file tree lists */
 
 body {
-  background: #000;
+  background: url("https://sadhost.neocities.org/images/tiles/stars3.gif");
   filter: invert(1);
+  margin: 10%;
 }
 
 .file-tree ul {
