@@ -34,7 +34,7 @@ html {
 .minex li {
     font-family: minecraft;
     font-size: 0.6rem;
-    filter: drop-shadow(0.5px 0.5px 0px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(1px 1px 0px rgba(0, 0, 0, 0.5));
 }
 
 .minexs {
